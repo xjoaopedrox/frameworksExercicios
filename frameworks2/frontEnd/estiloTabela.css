@@ -1,0 +1,13 @@
+table{
+    --cor-borda: black;
+    --tipo-borda : solid;
+    --tamanho-borda:1px;
+}
+td{
+    border: var(--tamanho-borda) var(--cor-borda)var(--tipo-borda);
+    width: 100px;
+    height: 100px;
+}
+dados {
+    display: none;
+}
