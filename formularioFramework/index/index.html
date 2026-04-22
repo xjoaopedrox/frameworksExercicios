@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Temperaturas</title>
+</head>
+
+<body>
+    <form>
+        <h1>Crie seu formulário</h1>
+        <button type="button" onclick="novoCampo()">Novo campo</button>
+        <button type="button" onclick="visualizarForm()">Concluir</button>
+        <hr>
+        <label for="rotulo0">Rótulo</label>
+        <input type="text" name="rotulo0">
+        <label for="tipo0">Tipo</label>
+        <select name="tipo0">
+            <option value="text">Texto</option>
+            <option value="number">Número</option>
+            <option value="date">Data</option>
+            <option value="select">Opções</option>
+        </select>
+        <input type="text" name="opcoes0" placeholder="opcoes (virgula) ou texto inicial">
+
+        <br>
+    </form>
+    <script src="script.js"></script>
+    <iframe id="preview" style="width:100%; height:300px;"></iframe>
+</body>
+
+</html>
